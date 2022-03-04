@@ -26,14 +26,13 @@ library(coin) #for effect size calculations
 
 
 
-
+main_path= 'C:/Users/Lioba/Documents/Research/data/eva-usability/data/'
+setwd(main_path)
 
 ifelse(!dir.exists("output"), dir.create("output"), "Folder exists already")
 
 
-out_path='output/'
-
-
+out_path='C:/Users/Lioba/Documents/Research/data/eva-usability/data/output/'
 
 
 

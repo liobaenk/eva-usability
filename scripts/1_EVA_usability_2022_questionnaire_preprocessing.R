@@ -29,7 +29,7 @@ library(ggpubr)
 
 
 
-main_path= 'C:/Users/Lioba/Dropbox/EVA_Franziska_Anne/1_EVA_Geordnet/2_analysis/Analysis_Lioba_2022/data/' # main preprocessing output folder
+main_path= 'C:/Users/Lioba/Documents/Research/data/eva-usability/data/' # main preprocessing output folder
 
 setwd(main_path)
 
@@ -41,7 +41,7 @@ setwd(main_path)
 
 
 #bigdata2 = read.csv2('C:/Users/Lioba/Dropbox/EVA_Franziska_Anne/1_EVA_Geordnet/2_analysis/Analysis_Lioba_2022/data/raw/EVA_usability_raw_master_060222.csv')
-bigdata = read.csv2('data/raw/EVA_usability_raw_master_060222.csv')
+bigdata = read.csv2('C:/Users/Lioba/Documents/Research/data/eva-usability/data/raw/EVA_usability_raw_master_060222.csv')
 
 
 

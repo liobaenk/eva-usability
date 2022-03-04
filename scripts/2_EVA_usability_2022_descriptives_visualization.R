@@ -34,7 +34,7 @@ library(gridExtra)
 
 
 
-main_path= 'C:/Users/Lioba/Dropbox/EVA_Franziska_Anne/1_EVA_Geordnet/2_analysis/Analysis_Lioba_2022/'
+main_path= 'C:/Users/Lioba/Documents/Research/data/eva-usability/data/'
 setwd(main_path)
 
 
@@ -53,7 +53,7 @@ cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2"
 
 
 
-bigdata = read.csv('data/EVA_usability_preprocessed.csv')
+bigdata = read.csv('C:/Users/Lioba/Documents/Research/data/eva-usability/data/EVA_usability_preprocessed.csv')
 
 
 bigdata$group <- factor(bigdata$group, levels = c("NT", "ASC"))
